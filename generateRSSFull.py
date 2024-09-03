@@ -61,7 +61,7 @@ def format_rss_feed(rss_content):
 # main function
 def main():
     # provide the rss url
-    rss_url = "https://www.goodreads.com/review/list_rss/159912881?key=HwmFIPECXw72kmPPvsbou47ZvQ1vvVoZWx883FXkHztvhNO1&shelf=to-read"
+    rss_url = # add rss urls here
 
     # fetch the rss content
     rss_content = fetch_rss_feed(rss_url)
