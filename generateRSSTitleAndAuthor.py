@@ -57,11 +57,7 @@ def save_titles_and_authors_to_xml(books, filename):
 def main():
     # list of rss urls to fetch
     rss_urls = [
-        "https://www.goodreads.com/review/list_rss/159912881?key=HwmFIPECXw72kmPPvsbou47ZvQ1vvVoZWx883FXkHztvhNO1&shelf=to-read",
-        "https://www.goodreads.com/review/list_rss/159912881?key=HwmFIPECXw72kmPPvsbou47ZvQ1vvVoZWx883FXkHztvhNO1&shelf=to-read&page=2",
-        "https://www.goodreads.com/review/list_rss/159912881?key=HwmFIPECXw72kmPPvsbou47ZvQ1vvVoZWx883FXkHztvhNO1&shelf=to-read&page=3",
-        "https://www.goodreads.com/review/list_rss/159912881?key=HwmFIPECXw72kmPPvsbou47ZvQ1vvVoZWx883FXkHztvhNO1&shelf=to-read&page=4",
-        "https://www.goodreads.com/review/list_rss/159912881?key=HwmFIPECXw72kmPPvsbou47ZvQ1vvVoZWx883FXkHztvhNO1&shelf=to-read&page=5"
+       # add rss urls here
     ]
 
     # fetch rss content from all urls
